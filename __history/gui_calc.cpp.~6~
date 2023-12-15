@@ -93,14 +93,14 @@ void __fastcall TForm1::plusminusClick(TObject *Sender)
 void __fastcall TForm1::backClick(TObject *Sender)
 {
 	int bs = Display->Text.Length();
-	if (bs == 1)
+	if bs == 1)
 	{
 		Display->Text = "0";
 	}
 	else
 	{
 		String mb = Display->Text.Delete(bs, 1);
-        Display->Text = mb;
+        Disply->Text = mb;
     }
 }
 //---------------------------------------------------------------------------

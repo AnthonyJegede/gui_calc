@@ -100,7 +100,7 @@ void __fastcall TForm1::backClick(TObject *Sender)
 	else
 	{
 		String mb = Display->Text.Delete(bs, 1);
-        Display->Text = mb;
+        Disply->Text = mb;
     }
 }
 //---------------------------------------------------------------------------

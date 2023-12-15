@@ -97,7 +97,6 @@ object Form1: TForm1
     Font.Style = []
     ParentFont = False
     TabOrder = 9
-    OnClick = backClick
   end
   object cee: TButton
     Left = 153
@@ -106,7 +105,6 @@ object Form1: TForm1
     Height = 89
     Caption = 'C'
     TabOrder = 10
-    OnClick = ceeClick
   end
   object ce: TButton
     Left = 296
@@ -115,7 +113,6 @@ object Form1: TForm1
     Height = 89
     Caption = 'CE'
     TabOrder = 11
-    OnClick = ceClick
   end
   object divide: TButton
     Left = 436
@@ -220,7 +217,6 @@ object Form1: TForm1
     Height = 89
     Caption = #177
     TabOrder = 22
-    OnClick = plusminusClick
   end
   object dot: TButton
     Left = 296

@@ -90,17 +90,3 @@ void __fastcall TForm1::plusminusClick(TObject *Sender)
     Display->Text = (-1 * pm);
 }
 //---------------------------------------------------------------------------
-void __fastcall TForm1::backClick(TObject *Sender)
-{
-	int bs = Display->Text.Length();
-	if (bs == 1)
-	{
-		Display->Text = "0";
-	}
-	else
-	{
-		String mb = Display->Text.Delete(bs, 1);
-        Display->Text = mb;
-    }
-}
-//---------------------------------------------------------------------------

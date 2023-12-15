@@ -42,7 +42,6 @@ __published:	// IDE-managed Components
 	void __fastcall ceeClick(TObject *Sender);
 	void __fastcall ceClick(TObject *Sender);
 	void __fastcall plusminusClick(TObject *Sender);
-	void __fastcall backClick(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
 	__fastcall TForm1(TComponent* Owner);
