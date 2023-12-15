@@ -87,36 +87,3 @@ void __fastcall TForm1::dotClick(TObject *Sender)
 	}
 }
 //---------------------------------------------------------------------------
-void __fastcall TForm1::equalsBtn1Click(TObject *Sender)
-{
-    num2 = (Display->Text.ToDouble());
-		if (ops == "+")
-		{
-			  ans = num1 + num2;
-			  Display->Text = ans;
-		}
-		else if (ops =="-")
-		{
-			  ans = num1 - num2;
-			  Display->Text = ans;
-		}
-		else if (ops =="*")
-		{
-			  ans = num1 * num2;
-			  Display->Text = ans;
-		}
-		else if (ops =="/")
-		{
-			  if (num2 != 0) {
-			  ans = num1 / num2;
-			  Display->Text = ans;
-			  }
-		else
-		{
-			ShowMessage("Divide overflow, stopped!");
-			Display->Text = "0";
-            return;
-        }
-		}
-}
-//---------------------------------------------------------------------------

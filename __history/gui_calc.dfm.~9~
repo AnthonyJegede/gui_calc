@@ -63,6 +63,12 @@ object Form1: TForm1
     Width = 113
     Height = 89
     Caption = #61653
+    Font.Charset = SYMBOL_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -56
+    Font.Name = 'Wingdings'
+    Font.Style = []
+    ParentFont = False
     TabOrder = 5
     OnClick = backClick
   end
@@ -90,6 +96,12 @@ object Form1: TForm1
     Width = 113
     Height = 89
     Caption = '/'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -56
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
     TabOrder = 8
     OnClick = OpsClick
   end

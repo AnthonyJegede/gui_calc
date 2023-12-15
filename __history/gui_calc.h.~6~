@@ -12,6 +12,10 @@ class TForm1 : public TForm
 {
 __published:	// IDE-managed Components
 	TEdit *Display;
+	TButton *Button1;
+	TButton *Button2;
+	TButton *Button3;
+	TButton *Button4;
 	TButton *seven;
 	TButton *eight;
 	TButton *nine;
@@ -31,16 +35,14 @@ __published:	// IDE-managed Components
 	TButton *zero;
 	TButton *plusminus;
 	TButton *dot;
-	TButton *equalsBtn1;
+	TButton *equals;
 	void __fastcall NumEvent(TObject *Sender);
 	void __fastcall OpsClick(TObject *Sender);
-	void __fastcall equalsBtn(TObject *Sender);
+	void __fastcall equalsClick(TObject *Sender);
 	void __fastcall ceeClick(TObject *Sender);
 	void __fastcall ceClick(TObject *Sender);
 	void __fastcall plusminusClick(TObject *Sender);
 	void __fastcall backClick(TObject *Sender);
-	void __fastcall dotClick(TObject *Sender);
-	void __fastcall equalsBtn1Click(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
 	__fastcall TForm1(TComponent* Owner);
