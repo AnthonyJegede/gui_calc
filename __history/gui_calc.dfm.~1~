@@ -1,0 +1,223 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 680
+  ClientWidth = 557
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -56
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  TextHeight = 74
+  object Edit1: TEdit
+    Left = 8
+    Top = 8
+    Width = 541
+    Height = 82
+    Alignment = taRightJustify
+    TabOrder = 0
+    Text = '0'
+  end
+  object Button1: TButton
+    Left = 8
+    Top = 120
+    Width = 113
+    Height = 89
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 153
+    Top = 120
+    Width = 113
+    Height = 89
+    TabOrder = 2
+  end
+  object Button3: TButton
+    Left = 296
+    Top = 120
+    Width = 113
+    Height = 89
+    TabOrder = 3
+  end
+  object Button4: TButton
+    Left = 436
+    Top = 120
+    Width = 113
+    Height = 89
+    TabOrder = 4
+  end
+  object Button5: TButton
+    Left = 8
+    Top = 232
+    Width = 113
+    Height = 89
+    Caption = '7'
+    TabOrder = 5
+  end
+  object Button6: TButton
+    Left = 153
+    Top = 232
+    Width = 113
+    Height = 89
+    Caption = '8'
+    TabOrder = 6
+  end
+  object Button7: TButton
+    Left = 296
+    Top = 232
+    Width = 113
+    Height = 89
+    Caption = '9'
+    TabOrder = 7
+  end
+  object Button8: TButton
+    Left = 436
+    Top = 232
+    Width = 113
+    Height = 89
+    Caption = 'x'
+    TabOrder = 8
+  end
+  object Button9: TButton
+    Left = 8
+    Top = 120
+    Width = 113
+    Height = 89
+    Caption = #61653
+    Font.Charset = SYMBOL_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -56
+    Font.Name = 'Wingdings'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 9
+  end
+  object Button10: TButton
+    Left = 153
+    Top = 120
+    Width = 113
+    Height = 89
+    Caption = 'C'
+    TabOrder = 10
+  end
+  object Button11: TButton
+    Left = 296
+    Top = 120
+    Width = 113
+    Height = 89
+    Caption = 'CE'
+    TabOrder = 11
+  end
+  object Button12: TButton
+    Left = 436
+    Top = 120
+    Width = 113
+    Height = 89
+    Caption = '/'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -56
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 12
+  end
+  object Button13: TButton
+    Left = 8
+    Top = 344
+    Width = 113
+    Height = 89
+    Caption = '4'
+    TabOrder = 13
+  end
+  object Button14: TButton
+    Left = 153
+    Top = 344
+    Width = 113
+    Height = 89
+    Caption = '5'
+    TabOrder = 14
+  end
+  object Button15: TButton
+    Left = 296
+    Top = 344
+    Width = 113
+    Height = 89
+    Caption = '6'
+    TabOrder = 15
+  end
+  object Button16: TButton
+    Left = 436
+    Top = 344
+    Width = 113
+    Height = 89
+    Caption = '-'
+    TabOrder = 16
+  end
+  object Button17: TButton
+    Left = 8
+    Top = 456
+    Width = 113
+    Height = 89
+    Caption = '1'
+    TabOrder = 17
+  end
+  object Button18: TButton
+    Left = 153
+    Top = 456
+    Width = 113
+    Height = 89
+    Caption = '2'
+    TabOrder = 18
+  end
+  object Button19: TButton
+    Left = 296
+    Top = 456
+    Width = 113
+    Height = 89
+    Caption = '3'
+    TabOrder = 19
+  end
+  object Button20: TButton
+    Left = 436
+    Top = 456
+    Width = 113
+    Height = 89
+    Caption = '+'
+    TabOrder = 20
+  end
+  object Button21: TButton
+    Left = 8
+    Top = 568
+    Width = 113
+    Height = 89
+    Caption = '0'
+    TabOrder = 21
+  end
+  object Button22: TButton
+    Left = 153
+    Top = 568
+    Width = 113
+    Height = 89
+    Caption = #177
+    TabOrder = 22
+  end
+  object Button23: TButton
+    Left = 296
+    Top = 568
+    Width = 113
+    Height = 89
+    Caption = '.'
+    TabOrder = 23
+  end
+  object Button24: TButton
+    Left = 436
+    Top = 568
+    Width = 113
+    Height = 89
+    Caption = '='
+    TabOrder = 24
+  end
+end
